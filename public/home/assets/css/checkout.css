@@ -1,0 +1,412 @@
+.radio-title .radio-mark,
+.recive-date-shipping-item-radio .radio-mark {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.section-woocommerce-checkout-customer-details {
+    width: 75%;
+    background: #fff;
+    border-radius: 32px;
+    padding: 20px 30px;
+}
+
+.section-woocommerce-checkout-order-review {
+    width: 21%;
+    background: #fff;
+    border-radius: 32px;
+    padding: 28px 10px;
+    position: sticky;
+    top: 0;
+}
+
+.title-header-categories-main .shape-header-categories-main {
+    left: inherit;
+    right: 90px !important;
+}
+
+.form-row {
+    display: block;
+}
+
+.woocommerce-order-button-html {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 0 solid transparent;
+    width: 100%;
+    cursor: pointer;
+}
+
+.woocommerce-order-button-html span {
+    width: 94%;
+    height: 56px;
+    font-family: peydaBold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    color: var(--main-color);
+    flex: none;
+    flex-grow: 0;
+    border: 1px solid var(--main-color);
+    border-radius: 1000px;
+}
+
+.woocommerce-order-button-html svg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 56px;
+    height: 56px;
+    background: var(--main-color);
+    border-radius: 1000px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 -19px;
+    z-index: 1;
+}
+
+input, textarea {
+    font-family: dana;
+    outline: 0;
+    background: rgba(29, 41, 119, 0.05);
+    border: 0 solid transparent;
+    border-radius: 12px;
+    padding: 10px;
+    width: 95%;
+}
+
+input#payment_method_bacs {
+    width: auto;
+    margin-left: 10px;
+}
+
+input#payment_method_cod {
+    width: auto;
+    margin-left: 10px;
+}
+
+
+.title-header-categories-main {
+    margin: inherit !important;
+}
+
+b,
+strong,
+th {
+    font-family: peydaBold !important;
+}
+
+.kamand-basic-info label span {
+    font-size: 13px;
+    color: var(--main-complementary-color);
+}
+
+.kamand-basic-info {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 30px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid rgba(29, 41, 119, 0.05);
+}
+
+.form-input-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.kamand-address-options {
+    margin: 30px 0;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(29, 41, 119, 0.05);
+}
+
+.kamand-address-options h3 {
+    color: var(--main-color);
+}
+
+.kamand-address-choice {
+    background: rgba(29, 41, 119, 0.05);
+    border-radius: 32px;
+    padding: 40px 30px;
+    margin: 20px 0;
+}
+
+.kamand-address-choice .address-fields {
+    width: 100%;
+}
+
+#billing_country_field,
+#shipping_country_field,
+.radio-title input,
+.recive-date-shipping-item-radio input[type="radio"] {
+    display: none;
+}
+
+.kamand-address-choice h4 {
+    color: var(--main-color);
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.kamand-address-choice-wrapper {
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 40px 30px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    flex: none;
+    flex-grow: 0;
+    align-items: center;
+}
+
+#billing_address_2_field,
+#billing_city_field,
+#billing_postcode_field,
+#billing_state_field,
+#shipping_address_2_field,
+#shipping_city_field,
+#shipping_postcode_field,
+#shipping_state_field {
+    margin-top: 10px;
+}
+
+.select2-selection {
+    background: rgba(29, 41, 119, 0.05) !important;
+    border: 0 solid !important;
+    border-radius: 12px !important;
+}
+
+.radio-title .radio-mark {
+    width: 35px;
+    height: 35px;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+
+.radio-title:hover .radio-mark,
+.recive-date-shipping-item-radio:hover .radio-mark {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.radio-title input[type="radio"]:checked + .radio-mark::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 11px;
+    width: 9px;
+    height: 16px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    background: 0 0;
+}
+
+.radio-title input[type="radio"]:checked + .radio-mark,
+.recive-date-shipping-item-radio input[type="radio"]:checked + .radio-mark {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.recive-date-shipping {
+    width: 100%;
+    height: 201px;
+    border: 1px solid rgba(4, 6, 7, 0.04);
+    border-radius: 16px;
+    padding: 40px 30px;
+}
+
+.recive-date-shipping h4 {
+    color: var(--main-color);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.recive-date-shipping-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    gap: 16px;
+    width: 100%;
+    height: 84px;
+}
+
+.recive-date-shipping-item {
+    width: auto;
+    height: 84px;
+    background: rgba(29, 41, 119, 0.05);
+    border-radius: 24px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.recive-date-shipping-item.active {
+    border-color: var(--main-color);
+}
+
+.recive-date-shipping-item-radio .radio-mark {
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+
+.recive-date-shipping-item-radio
+input[type="radio"]:checked
++ .radio-mark::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 6px;
+    height: 11px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    background: 0 0;
+}
+
+.recive-date-shipping-item-content {
+    color: var(--main-color);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.recive-date-shipping-item-content > span:first-child {
+    font-weight: 700;
+    font-size: 13px;
+    font-family: peydaBold;
+}
+
+.shop_table.woocommerce-checkout-review-order-table tr {
+    background-color: #f7f8fd;
+    margin: 5px 0;
+    padding: 15px 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop_table.woocommerce-checkout-review-order-table th {
+    font-family: peydaBold;
+    font-size: 14px;
+}
+
+.shop_table.woocommerce-checkout-review-order-table td,
+.shop_table.woocommerce-checkout-review-order-table td strong,
+.shop_table.woocommerce-checkout-review-order-table td strong bdi {
+    font-size: 14px;
+    font-family: dana !important;
+}
+
+.woocommerce-checkout-payment {
+    background-color: #f7f8fd !important;
+    margin: 5px 0 !important;
+    padding: 15px 20px !important;
+    border-radius: 24px !important;
+}
+
+@media (max-width: 768px) {
+    .checkout {
+        flex-direction: column;
+    }
+
+    .section-woocommerce-checkout-customer-details {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .section-woocommerce-checkout-order-review {
+        width: 100%;
+    }
+
+    .header-categories-main {
+        margin-top: 0;
+    }
+
+    .recive-date-shipping-wrapper {
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+
+    .recive-date-shipping-item {
+        width: 150px;
+    }
+
+    .kamand-address-options {
+        padding: 5px 15px;
+    }
+
+    .kamand-address-choice-wrapper {
+        flex-direction: column;
+        padding: 8px !important;
+        align-items: flex-start;
+    }
+
+    .kamand-address-choice {
+        padding: 8px !important;
+    }
+}
+
+#add_payment_method #payment ul.payment_methods li, .woocommerce-cart #payment ul.payment_methods li, .woocommerce-checkout #payment ul.payment_methods li {
+    line-height: 2;
+    text-align: right;
+    margin: 0;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#add_payment_method #payment ul.payment_methods, .woocommerce-cart #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods {
+    text-align: right;
+    padding: 1em;
+    border-bottom: 1px solid rgba(104, 87, 125, .14);
+    margin: 0;
+    list-style: none outside;
+}

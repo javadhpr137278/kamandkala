@@ -1,0 +1,39 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Property extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'title',
+        'product_id',
+        'property_group_id',
+    ];
+
+    public function product()
+    {
+        return $this->belongsTo(Product::class);
+
+    }
+
+    public function products()
+    {
+        return $this->belongsToMany(
+            Product::class,
+            'product_property_group',
+            'property_groups_id',  // ستون خارجی در جدول product_property_group
+            'product_id'            // ستون مربوط به product
+        );
+    }
+
+    public function propertyGroup()
+    {
+        return $this->belongsTo(PropertyGroup::class);
+
+    }
+}

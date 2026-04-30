@@ -1,0 +1,31 @@
+@font-face {
+  font-family: dana;
+  src: url("../fonts/dana/dana.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: peydaBold;
+  src: url("../fonts/peyda/Peyda-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: peydaExtraBold;
+  src: url("../fonts/peyda/Peyda-ExtraBold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: peydaMedium;
+  src: url("../fonts/peyda/Peyda-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: peydaRegular;
+  src: url("../fonts/peyda/Peyda-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: peydaSemiBold;
+  src: url("../fonts/peyda/Peyda-SemiBold.woff2") format("woff2");
+  font-display: swap;
+}
+

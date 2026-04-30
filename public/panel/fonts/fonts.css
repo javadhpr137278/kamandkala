@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: yekan;
+    src: url("./yekan-bakh/YekanBakhFaNum-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url("./yekan-bakh/YekanBakhFaNum-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url("./yekan-bakh/YekanBakhFaNum-Bold.woff2") format("woff2");
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url("./yekan-bakh/YekanBakhFaNum-Fat.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url("./yekan-bakh/YekanBakhFaNum-Heavy.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 800;
+}
+@font-face {
+    font-family: yekan;
+    src: url("./yekan-bakh/YekanBakhFaNum-Light.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'yekan', sans-serif !important;
+}
