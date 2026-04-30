@@ -1,59 +1,87 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛍️ کمند کالا - فروشگاه اینترنتی با لاراول و بوتسترپ
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[caminshop.ir](https://caminshop.ir) | [@kamandkala](https://instagram.com/kamandkala)
 
-## About Laravel
+![Laravel Version](https://img.shields.io/badge/Laravel-11.x-red.svg)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple.svg)
+![PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📌 معرفی پروژه
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**کمند کالا** یک فروشگاه اینترنتی کامل و مقیاس‌پذیر است که با **Laravel** و **Bootstrap** طراحی و پیاده‌سازی شده است.  
+امکانات جامع فروشگاهی، مدیریت آسان محصولات، سبد خرید حرفه‌ای و پنل مدیریت قدرتمند از ویژگی‌های اصلی این پروژه می‌باشند. پروژه در حال توسعه است و به‌روزرسانی‌های منظم دریافت می‌کند.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## ✨ امکانات فعلی
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- 🧑‍💼 **سیستم احراز هویت کاربران** (ثبت‌نام، ورود، بازیابی رمز)
+- 🛒 **سبد خرید با قابلیت افزودن/حذف/به‌روزرسانی تعداد**
+- 📦 **مدیریت محصولات** (دسته‌بندی، برند، قیمت، تخفیف، انبار)
+- 🔍 **جستجو و فیلتر پیشرفته محصولات**
+- 🖼 **گالری تصاویر محصول**
+- 🧾 **فرآیند ثبت سفارش و صورت‌حساب**
+- 💳 **اتصال به درگاه پرداخت زرین‌پال** (قابل تغییر)
+- 📊 **پنل مدیریت کامل** (مدیریت سفارشات، محصولات، کاربران و تخفیف‌ها)
+- 🌙 **حالت نمایش تاریک/روشن (رسمی)**
+- 📱 **طراحی واکنش‌گرا (Responsive) با Bootstrap 5**
+- 🗂 **مدیریت محتوا (صفحات تماس با ما، درباره ما، راهنما)**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🧱 تکنولوژی‌های استفاده شده
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+| بخش            | تکنولوژی                          |
+|----------------|-----------------------------------|
+| Backend        | PHP 8.2+, Laravel 11              |
+| Frontend       | Blade, Bootstrap 5, jQuery (ساده) |
+| Database       | MySQL 8.0                         |
+| Authentication | Laravel Breeze / Sanctum (بر حسب نیاز) |
+| Payment        | Zarinpal API                      |
+| Version Control| Git & GitHub                      |
 
-### Premium Partners
+> همچنین از پکیج‌های مفید مانند `Intervention Image`، `Laravel Debugbar` و `Spatie Permission` استفاده شده است.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 🚀 نحوه نصب و اجرا
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### پیش‌نیازها
+- PHP 8.2+
+- Composer
+- MySQL
+- Node.js & NPM (برای کامپایل asset‌ها، در صورت نیاز)
 
-## Code of Conduct
+### مراحل نصب
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+# 1. کلون کردن مخزن
+git clone https://github.com/[your-username]/kamandkala.git
+cd kamandkala
 
-## Security Vulnerabilities
+# 2. نصب وابستگی‌های PHP
+composer install
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# 3. کپی فایل محیطی و تنظیمات
+cp .env.example .env
 
-## License
+# 4. تولید کلید اپلیکیشن
+php artisan key:generate
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 5. تنظیم اطلاعات دیتابیس در فایل .env
+DB_DATABASE=kamandkala
+DB_USERNAME=root
+DB_PASSWORD=
+
+# 6. اجرای migrations و سیدرها (برای داده‌های اولیه)
+php artisan migrate --seed
+
+# 7. لینک storage برای نمایش تصاویر
+php artisan storage:link
+
+# 8. اجرای سرور توسعه
+php artisan serve
+
+# اکنون می‌توانید در آدرس http://localhost:8000 مشاهده کنید
