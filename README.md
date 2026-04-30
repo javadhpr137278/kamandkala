@@ -1,6 +1,6 @@
-# 🛍️ کمند کالا - فروشگاه اینترنتی با لاراول و بوتسترپ
+# 🛍️ کمند کالا - فروشگاه اینترنتی با لاراول
 
-[caminshop.ir](https://caminshop.ir) | [@kamandkala](https://instagram.com/kamandkala)
+ [@kamandkala](https://instagram.com/kamandkala)
 
 ![Laravel Version](https://img.shields.io/badge/Laravel-11.x-red.svg)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple.svg)
@@ -23,9 +23,8 @@
 - 🔍 **جستجو و فیلتر پیشرفته محصولات**
 - 🖼 **گالری تصاویر محصول**
 - 🧾 **فرآیند ثبت سفارش و صورت‌حساب**
-- 💳 **اتصال به درگاه پرداخت زرین‌پال** (قابل تغییر)
+- 💳 **اتصال به درگاه پرداخت زیبال** (قابل تغییر)
 - 📊 **پنل مدیریت کامل** (مدیریت سفارشات، محصولات، کاربران و تخفیف‌ها)
-- 🌙 **حالت نمایش تاریک/روشن (رسمی)**
 - 📱 **طراحی واکنش‌گرا (Responsive) با Bootstrap 5**
 - 🗂 **مدیریت محتوا (صفحات تماس با ما، درباره ما، راهنما)**
 
@@ -35,10 +34,10 @@
 
 | بخش            | تکنولوژی                          |
 |----------------|-----------------------------------|
-| Backend        | PHP 8.2+, Laravel 11              |
-| Frontend       | Blade, Bootstrap 5, jQuery (ساده) |
+| Backend        | PHP 8.2+, Laravel 12              |
+| Frontend       | Blade, Bootstrap 5, jQuery |
 | Database       | MySQL 8.0                         |
-| Authentication | Laravel Breeze / Sanctum (بر حسب نیاز) |
+| Authentication | Laravel Breeze / Sanctum          |
 | Payment        | Zarinpal API                      |
 | Version Control| Git & GitHub                      |
 
@@ -58,7 +57,7 @@
 
 ```bash
 # 1. کلون کردن مخزن
-git clone https://github.com/[your-username]/kamandkala.git
+git clone https://github.com/javadhpr137278/kamandkala.git
 cd kamandkala
 
 # 2. نصب وابستگی‌های PHP
